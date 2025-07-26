@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fondoTema" format="reference"/>
+    <attr name="botonOn" format="reference"/>
+    <attr name="botonOff" format="reference"/>
+    <attr name="fondoCrud" format="reference"/>
+    <declare-styleable name="TemaPersonalizado">
+        <attr name="backgroundBotonesCrud" format="reference" />
+        <attr name="backgroundBotonLinterna" format="reference" />
+    </declare-styleable>
+</resources>

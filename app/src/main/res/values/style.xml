@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Tema Metalizado -->
+    <style name="TemaMetalico" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fondoTema">@drawable/fondo_linterna_metalico</item>
+        <item name="botonOn">@drawable/switch_on</item>
+        <item name="botonOff">@drawable/switch_off</item>
+        <item name="fondoCrud">@drawable/fondo_linterna_metalico</item>
+        <item name="android:background">@drawable/fondo_linterna_metalico</item>
+        <item name="backgroundBotonesCrud">@drawable/fondo_linterna_metalico</item>
+        <item name="backgroundBotonLinterna">@drawable/fondo_linterna_metalico</item>
+
+    </style>
+
+    <!-- Tema LED -->
+    <style name="TemaLED" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fondoTema">@drawable/fondo_led</item>
+        <item name="botonOn">@drawable/btn_on_led</item>
+        <item name="botonOff">@drawable/btn_off_led</item>
+        <item name="fondoCrud">@drawable/led_fondo_barra</item>
+        <item name="android:background">@drawable/led_fondo_barra</item>
+        <item name="backgroundBotonesCrud">@drawable/color_led</item>
+        <item name="backgroundBotonLinterna">@drawable/color_led</item>
+
+
+    </style>
+
+    <!-- Tema Futurista -->
+    <style name="TemaFuturista" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fondoTema">@drawable/fondo_futurista</item>
+        <item name="botonOn">@drawable/btn_on_futurista</item>
+        <item name="botonOff">@drawable/btn_off_futurista</item>
+        <item name="fondoCrud">@drawable/futurista_fondo_barra</item>
+        <item name="android:background">@drawable/futurista_fondo_barra</item>
+        <item name="backgroundBotonesCrud">@drawable/futurista_fondo_barra</item>
+        <item name="backgroundBotonLinterna">@drawable/futurista_fondo_barra</item>
+
+    </style>
+
+    <!-- Tema Camuflado -->
+    <style name="TemaCamuflado" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fondoTema">@drawable/fondo_camuflado</item>
+        <item name="botonOn">@drawable/btn_on_camuflado</item>
+        <item name="botonOff">@drawable/btn_off_camuflado</item>
+        <item name="fondoCrud">@drawable/camuflado_fondo_barra</item>
+        <item name="android:background">@drawable/color_camuflado</item>
+        <item name="backgroundBotonesCrud">@drawable/color_camuflado</item>
+        <item name="backgroundBotonLinterna">@drawable/color_camuflado</item>
+
+
+    </style>
+
+    <style name="TemaAnimal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fondoTema">@drawable/fondo_animal_print</item>
+        <item name="botonOn">@drawable/btn_on_animal</item>
+        <item name="botonOff">@drawable/btn_off_animal</item>
+        <item name="fondoCrud">@drawable/animal_fondo_barra</item>
+        <item name="android:background">@drawable/animal_fondo_barra</item>
+        <item name="backgroundBotonesCrud">@drawable/color_animal</item>
+        <item name="backgroundBotonLinterna">@drawable/color_animal</item>
+
+    </style>
+
+    <style name="TemaAnimalPink" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fondoTema">@drawable/fondo_animal_pink</item>
+        <item name="botonOn">@drawable/btn_on_animal_pink</item>
+        <item name="botonOff">@drawable/btn_off_animal_pink</item>
+        <item name="fondoCrud">@drawable/animal_pink_fondo_barra</item>
+        <item name="android:background">@color/pink</item>
+        <item name="backgroundBotonesCrud">@drawable/color_pink</item>
+        <item name="backgroundBotonLinterna">@drawable/color_pink</item>
+
+    </style>
+
+
+</resources>

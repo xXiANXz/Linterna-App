@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/crudBarra"
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/btnLow"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:stateListAnimator="@animator/pulsacion"
+            android:background="@drawable/boton_sombra"
+
+            android:src="@drawable/ic_stop"
+            android:contentDescription="Intensidad baja"
+            android:scaleType="centerInside" />
+
+        <Space
+            android:layout_width="32dp"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:id="@+id/btnSalir"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_exit"
+            android:contentDescription="Salir"
+            android:scaleType="centerInside" />
+
+        <Space
+            android:layout_width="32dp"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:id="@+id/btnConfig"
+            android:layout_width="60dp"
+            android:src="@drawable/ic_config"
+            android:layout_height="60dp"
+            android:background="@drawable/boton_sombra"
+
+            android:contentDescription="Configuración"
+            android:scaleType="centerInside" />
+
+        <Space
+            android:layout_width="32dp"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:id="@+id/btnHigh"
+            android:stateListAnimator="@animator/pulsacion"
+            android:src="@drawable/ic_sos"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="Modo SOS"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnLinternaOff"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="Linterna apagada"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/btnLinternaOn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="Linterna encendida"
+        android:scaleType="centerInside" />
+
+
+
+</RelativeLayout>

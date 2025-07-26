@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridTemas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:rowCount="3"
+    android:background="@drawable/boton_metalizado"
+    android:useDefaultMargins="true">
+
+        <Button
+        android:id="@+id/btnTema1"
+        android:text="Tema Metalizado"
+        android:layout_width="0dp"
+            android:background="@drawable/fondo_metalizado_presentacion"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+        <Button
+        android:id="@+id/btnTema2"
+        android:text="Tema Led"
+            android:background="@drawable/fondo_led_presentacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+        <Button
+        android:id="@+id/btnTema3"
+        android:text="Tema Camuflado"
+            android:background="@drawable/fondo_camuflado_presentacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+        <Button
+        android:id="@+id/btnTema4"
+        android:text="Tema Futurtista"
+            android:background="@drawable/fondo_futurista_presentacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+        <Button
+        android:id="@+id/btnTema5"
+        android:text="Tema Animal Print"
+            android:background="@drawable/fondo_animal_presentacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+        <Button
+        android:id="@+id/btnTema6"
+        android:text="Tema Animal Pink"
+            android:background="@drawable/fondo_animal_pink_presentacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+
+</GridLayout>
